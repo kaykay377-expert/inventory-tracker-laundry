@@ -954,3 +954,7 @@ const App = () => {
 };
 
 export default App;
+
+// Render the app to the DOM
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<App />);
